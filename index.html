@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,15 +18,11 @@
 
         function mudarValor(){
             document.querySelector("#valor").value = "Novo conteúdo"
-            if(document.getElementById("conteudo").innerHTML ==
-            "<p>Estou usando um smartphone</p>"){
-
-            document.getElementById("conteudo").innerHTML = 
-            "<p>Estou usando um computador</p>"
-            }
+            if(document.getElementById("conteudo").innerHTML == "<p>Estou usando um smartphone</p>"){
+                document.getElementById("conteudo").innerHTML = "<p>Estou usando um computador</p>"
+                }
             else {
-                document.getElementById("conteudo").innerHTML = 
-            "<p>Estou usando um smartphone</p>"
+                document.getElementById("conteudo").innerHTML = "<p>Estou usando um smartphone</p>"
             }
         }
     </script>
