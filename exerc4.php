@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 1</title>
+    <title>Exercício 4</title>
 </head>
 <body>
-    <form action = "exerc1resposta.php" method = "post">
-        <label>Informe o valor: </label>
-        <input type = "text" name = "valor1">
+    <form action = "exerc4resposta.php" method = "post">
+        <label>Informe o número: </label>
+        <input type = "number" name = "valor1">
         <button type = "submit">Enviar</button>
     </form> 
 </body>
