@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    font-family: sans-serif;
+    background-image: url(./img/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: end;
+}
+
+.link{
+    margin-top: 2%;
+    padding: 10px 50px 50px 60px;
+    position: absolute;
+    margin-right: 90%;
+}
+
+.caixa{
+    padding: 10px 70px 10px 70px;
+    margin-top: 10%;
+    margin-right: 11%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(95, 94, 94, 0.5);
+}
+
+.titulo{
+    font-size: 2.5rem;
+    line-height: 17px;
+    color: #414143;
+    font-weight: 600;
+    text-align: center;
+    margin: 25px;
+}
+
+.subTitulo{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #717171;
+}
+
+.btn-face-google{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.face, .google{
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn-fone-email{
+    display: flex;
+}
+
+.fone, .email{
+    padding: 15px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color:#cbcdd1 ;
+}
+
+.fone{
+    margin-right: 20px;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+a{
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.face{
+    color: white;
+    background-color: #4065b4;
+    transition: 0.1s;
+    display: flex;
+}
+
+.face:hover{
+    background-color: #7295e1;
+}
+
+.google{
+    display: flex;
+}
+
+.google, .fone, .email{
+    background-color: white;
+    border: 0.5px solid #d8dade;
+    transition: 0.1s;
+}
+
+.google:hover{
+    background-color: #cbcdd1;
+}
+
+.fone:hover, .email:hover{
+    background-color: #ea1d2c;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .caixa {
+        margin-top: 20%;
+        justify-content: center;
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    .titulo{
+        line-height: 40px;
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        background-image: none;
+    }
+}

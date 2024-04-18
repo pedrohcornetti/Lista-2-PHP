@@ -1,0 +1,78 @@
+body {
+    font-family: iFood RC Titulos, iFood RC Textos, helvetica, sans-serif;
+}
+
+:root {
+    --vermelho: #ea1d2c;
+    --vermelho_escuro: #cc1825;
+    --verde: #b7d255;
+    --verde_escuro: #9eb53e;
+    --cinza_claro: #eee;
+    --cinza_escuro: #717171;
+    --cinza_mais_escuro: #3e3e3e;
+}
+
+.bgVermelho {
+    background-color: var(--vermelho)
+}
+
+.textVermelho {
+    color: var(--vermelho)
+}
+
+.section {
+    /* background-image: url(../assets/img/cozinha.jpg); */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-top: 140px;
+    background-image: url(./img/imgFundo.png);
+    padding-bottom: 180px;
+}
+
+.imagem {
+    width: 100%;
+    /* margin-top: 50px; */
+}
+
+#card-res {
+    background-color: var(--vermelho);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);
+}
+
+#card-res:hover {
+    transform: scale(1.05);
+}
+
+.btnRest {
+    background-color: var(--vermelho_escuro);
+}
+
+#card-mer {
+    background: var(--verde);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);
+}
+
+#card-mer:hover {
+    transform: scale(1.05);
+}
+
+.btnMer {
+    background-color: var(--verde_escuro);
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.texto_footer {
+    font-size: 12px;
+    color: var(--cinza_escuro)
+}
+
+a {
+    text-decoration: none;
+    color: var(--cinza_mais_escuro);
+    font-size: 15px;
+}

@@ -1,0 +1,412 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+.navbarLista{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 3%;
+    font-family: 'fonteThin';
+    font-weight: bold;
+}
+
+.headerNavBar{
+    background-color: #eb0033;
+    padding: 0px 10px 0px 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+.itens{
+    margin-right: 50px;
+}
+
+.logo{
+    width: 80px;
+}
+
+.divBtnIfood{
+    margin-top: 1.5%;
+    margin-right: 130px;
+}
+
+.btnIfood{
+    padding: 15px 15px 15px 15px;
+    color: #eb0033;
+    background-color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.btnIfood:hover{
+    background-color: #f78da7;
+    cursor: pointer;
+}
+
+.primeiraDivMain{
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+}
+
+.divTitulosMain{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 60px 0px 0px;
+    color: white;
+    justify-content: space-around;
+}
+
+.TituloMain{
+    font-size: 55px;
+    font-family: 'fontExtraBold';
+}
+
+.descricaoPrimeiroTitulo{
+    font-size: 20px;
+    font-family: 'fontRegular';
+    line-height: 30px;
+}
+
+.btnSaibaMais{
+    padding: 20px 25px 20px 25px;
+    color: #eb0033;
+    background-color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.btnSaibaMais:hover{
+    background-color: #f78da7;
+    cursor: pointer;
+}
+
+.segundaDivMain{
+    display: flex;
+    margin: 85px 120px 50px 100px;
+}
+
+.divSegundoTitulosMain{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 60px 0px 0px;
+    color: black;
+    justify-content: space-around;
+}
+
+.segundoTituloMain{
+    color: #eb0033;
+    font-size: 35px;
+    font-family: 'fontExtraBold';
+}
+
+.descricaoSegundoTitulo{
+    font-size: 20px;
+    font-family: 'fontRegular';
+    line-height: 30px;
+}
+
+.btncomunidade{
+    padding: 20px 25px 20px 25px;
+    color: white;
+    background-color: #eb0033;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.btncomunidade:hover{
+    background-color: #f55b82;
+    cursor: pointer;
+}
+
+.imgSection{
+    border-radius: 15px;
+}
+
+.divTerceiroTitulosMain{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 0px 60px;
+    color: black;
+    justify-content: space-around;
+}
+
+.quartaDivMain{
+    background-color: #f7f7f7;
+    padding: 100px 0px 50px 0px;
+}
+
+.ifoodNews{
+    margin: 0;
+    text-align: center;
+    font-family: 'fonteThin';
+}
+
+.quartoTituloMain{
+    font-size: 35px;
+    font-family: 'fontExtraBold';
+    text-align: center;
+    margin: 0;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card1, .card2, .card3{
+    width: 400px;
+    margin-top: 70px;
+    margin-right: 30px;
+    border-radius: 5px;
+    padding: 0px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(95, 94, 94, 0.5);
+}
+
+.imgCard1{
+    padding: 100px 0px 100px 0px;
+    background-image: url("./img/ifood-mentiraxverdade.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 0px 0px;
+    border: none;
+}
+.imgCard2{
+    padding: 100px 0px 100px 0px;
+    background-image: url("./img/gamers_ifood_portal-1024x576.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 0px 0px;
+    border: none;
+}
+.imgCard3{
+    padding: 100px 0px 100px 0px;
+    background-image: url("./img/card1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 0px 0px;
+    border: none;
+}
+
+.descricaoCard{
+    padding: 20px;
+}
+
+.tituloCard{
+    font-family: 'fontRegular';
+    margin: 5px 0px 10px 0px;
+}
+
+.descricao{
+    font-family: 'fontLight';
+    margin: 0px 0px 20px 0px;
+}
+
+.divData{
+    margin-top: 50px;
+}
+
+.data{
+    color: #adadad;
+    font-family: 'fontRegular';
+    margin: 10px 0 0 0;
+}
+
+.divBtnCard{
+    display: flex;
+    justify-content: end;
+    margin: 50px 9.5% 0 0;
+}
+
+.d-none-desktop{
+    display: none;
+}
+
+.divFooter{
+    display: flex;
+    background-color: #eb0033;
+    color: white;
+    font-family: 'fontRegular';
+    padding: 100px;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.ajuda, .comunidade{
+    display: flex;
+}
+
+.sobre{
+    padding-right: 30px;
+}
+
+.copy{
+    background-color: #890019;
+    padding: 30px 100px 30px 100px;
+    display: flex;
+    color: white;
+    font-family: 'fontRegular';
+}
+
+.copy>p{
+    margin-left: auto;
+}
+
+@media screen and (max-width: 991px){
+
+    body{
+        box-sizing: border-box;
+    }
+
+    .d-none_celular{
+        display: none;
+    }
+
+    .block-cel{
+        display: block;
+    }
+
+    .navbarLista{
+        margin: 0;
+    }
+
+    .primeiraDivMain{
+        flex-direction: column;
+        padding: 0;
+        margin: 0 5% 0 5%;
+    }
+
+    .segundaDivMain{
+        margin: 50px 0 0 0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .TituloMain{
+        font-size: 35px;
+        margin-bottom: 20px !important;
+    }
+
+    .divTitulosMain{
+        padding: 0;
+    }
+
+    .segundoTituloMain{
+        margin-top: 50px !important;
+    }
+
+    .divSegundoTitulosMain, .divTerceiroTitulosMain{
+        padding: 0;
+    }
+
+    .quartaDivMain{
+        padding: 40px;
+    }
+
+    .cards{
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .card1, .card2, .card3{
+        margin: 20px;
+    }
+
+    .divBtnCard{
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0 10px 0;
+    }
+
+    .headerNavBar, main{
+        width: 100%;
+    }
+
+    .headerNavBar{
+        padding: 10px 0px 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .divBtnIfood{
+        margin: 0 5%;
+    }
+
+    .segundaDivMain{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-top: 10%;
+    }
+
+    .img-cel, .imgSection{
+        width: 100%;
+    }
+
+    .divTitulosMain{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre, .ajuda, .comunidade{
+        line-height: 30px;
+    }
+
+    .divFooter{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .p-footer{
+        margin: 5px;
+    }
+
+    .copy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+@font-face {
+    font-family: 'fonteThin';
+    src: url('../fonts/iFoodRCTextos-Thin.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: 'fontExtraBold';
+    src: url('../fonts/iFoodRCTextos-Bold.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: 'fontRegular';
+    src: url('../fonts/iFoodRCTextos-Regular.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: 'fontLight';
+    src: url('../fonts/iFoodRCTextos-Light.ttf') format('woff2');
+}
