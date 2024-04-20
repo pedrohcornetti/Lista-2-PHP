@@ -6,7 +6,7 @@
     <title>Exercícios</title>
 </head>
 <body>
-<form action="exercicio9.php" method="post">
+<form action="exerc9resposta.php" method="post">
         <label>Informe o ano que você nasceu: </label><br>
         <input type="number" name="ano"><br>
         <button type="submit">Enviar</button>
